@@ -10,7 +10,7 @@ const nav = [
   { to: "/planner", label: "Task Planner", icon: CalendarClock },
 ] as const;
 
-function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
+function NavLinks({ onNavigate }: { onNavigate?: (() => void) | undefined }) {
   return (
     <nav className="flex flex-col gap-1">
       {nav.map((item) => (
@@ -32,7 +32,7 @@ function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
   );
 }
 
-function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
+function SidebarContent({ onNavigate }: { onNavigate?: (() => void) | undefined }) {
   return (
     <div className="flex h-full flex-col gap-8 p-5">
       <Link to="/" onClick={onNavigate} className="flex items-center gap-3">
