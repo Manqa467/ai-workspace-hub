@@ -1,116 +1,117 @@
-# AI Workspace Hub
+AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS-style web app called AI Workplace Productivity Assistant.
+Project Overview
 
+AI Workplace Productivity Assistant is a modern, responsive SaaS-style web application designed to help professionals automate everyday workplace tasks using AI-assisted productivity tools.
 
+The application provides three main tools:
 
+- Smart Email Generator
+- Meeting Notes Summarizer
+- AI Task Planner
 
-Core Features
+The application is frontend-only and does not require user login, registration, a backend, or a database.
 
-
-
+Features Implemented
 
 Smart Email Generator
 
-Generate professional workplace emails.
-
-Tones: Professional, Friendly, Persuasive.
-
-Let users edit and copy the generated email.
+- Generate professional workplace emails
+- Choose from three tones:
+  - Professional
+  - Friendly
+  - Persuasive
+- Edit generated email content
+- Copy generated content
+- Clear and reset the form
+- Includes example/demo content for testing
 
 Meeting Notes Summarizer
 
-Users paste lengthy meeting notes.
-
-AI summarizes them and extracts:
-
-
-Key points
-
-Action items
-
-Decisions
-
-Deadlines
-
-Results should be editable and copyable.
+- Paste lengthy meeting notes
+- Generate a concise summary
+- Extract key points
+- Extract action items
+- Extract decisions
+- Extract deadlines
+- Edit generated results
+- Copy generated content
+- Clear and reset the input
+- Includes example/demo content for testing
 
 AI Task Planner
 
-Users enter their tasks and priorities.
+- Enter workplace tasks
+- Assign task priorities:
+  - High
+  - Medium
+  - Low
+- Create Daily or Weekly plans
+- Generate an organized schedule
+- Edit the generated plan
+- Copy generated content
+- Clear and reset the planner
+- Includes example/demo tasks
 
-Generate daily or weekly schedules.
+User Interface
 
-Prioritize tasks effectively.
+- Modern dark SaaS dashboard
+- Responsive desktop, tablet, and mobile design
+- Sidebar navigation
+- Clean and professional UI
+- Structured AI output panels
+- Loading states
+- Empty states
+- Editable AI-generated outputs
+- No login or registration required
+- No permanent user data storage
+- Responsible AI disclaimer
 
-Allow users to edit the generated plan.
+Technologies and Tools Used
 
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Lucide Icons
+- Lovable
+- GitHub
 
+The application is designed without a backend, database, or authentication system.
 
+Setup Instructions
 
-Design
+Prerequisites
 
+Make sure you have Node.js and npm installed.
 
+1. Clone the Repository
 
+git clone <YOUR_GITHUB_REPOSITORY_URL>
 
-Clean, premium, modern SaaS dashboard.
+2. Open the Project
 
-Black / dark charcoal color theme with subtle neutral shades.
+cd ai-workplace-productivity-assistant
 
-Sidebar navigation.
+3. Install Dependencies
 
-Professional cards, buttons, forms and AI output panels.
+npm install
 
-Responsive on desktop, tablet and mobile.
+4. Start the Development Server
 
-Include a simple dashboard/home screen showing the three tools.
-
-
-
-
-Important Requirements
-
-
-
-
-No login or registration.
-
-No backend or database.
-
-Keep the app frontend-only.
-
-Use structured AI prompts for each tool.
-
-AI-generated results must be editable.
-
-Include a clear Responsible AI disclaimer explaining that AI outputs should be reviewed before use.
-
-Keep the interface simple, fast and beginner-friendly.
-
-Use realistic sample content/placeholders so the app feels complete.
-
-
-
-
-Focus on creating a polished, professional productivity assistant rather than adding unnecessary features.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/1fc9f603-503d-4621-b4b6-fbdb9bca36f3).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
 npm run dev
-```
+
+5. Open the Application
+
+Open the local URL provided by Vite in your web browser.
+
+Responsible AI
+
+AI-generated content may be incomplete or inaccurate. Users should review and verify generated emails, meeting summaries, action items, decisions, deadlines, and schedules before using or sharing them.
+
+The application should not be used as a substitute for human judgment when making important decisions.
+
+Project Goal
+
+The goal of AI Workplace Productivity Assistant is to provide professionals with a simple, accessible, and modern collection of AI-powered workplace productivity tools without requiring an account, registration, backend, database, or complicated setup.
